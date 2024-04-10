@@ -1,5 +1,6 @@
 
 Face Detection Application using OpenCV and Tkinter
+
 This application utilizes OpenCV and Tkinter to implement real-time face detection through various techniques. Below is a breakdown of the key features and components of the application:
 
 Features:
