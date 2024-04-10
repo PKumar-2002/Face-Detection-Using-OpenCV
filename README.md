@@ -11,7 +11,7 @@ Welcome to the Face Detection Application, a real-time face detection system usi
 
 ## Components
 
-- **Main Script (main.py)**: Initializes the GUI and orchestrates the application flow.
+- **Main Script (Face_Detection.ipynb)**: Initializes the GUI and orchestrates the application flow.
 - **Face Detection Functions**: Separate functions for each detection technique, applied to the camera feed.
 - **Global Variables**: Manage the state of detection techniques and camera.
 - **UI Elements**: Interactive buttons and visual cues for a seamless experience.
@@ -25,7 +25,7 @@ Welcome to the Face Detection Application, a real-time face detection system usi
 
 ## Getting Started
 
-To get started with the Face Detection Application, clone the repository and install the required dependencies. Run `main.py` to launch the application.
+To get started with the Face Detection Application, clone the repository and install the required dependencies. Run `Face_Detection.ipynb` to launch the application.
 
 ## Contribution
 
