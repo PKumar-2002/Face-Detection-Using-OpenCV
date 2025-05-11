@@ -2,6 +2,30 @@
 
 Welcome to the Face Detection Application, a real-time face detection system using OpenCV and Tkinter. This application demonstrates the power of computer vision with an interactive and user-friendly interface.
 
+# Key features:
+
+- Multiple detection modes:
+
+  - Haar + Canny and Haar + Sobel edge overlays
+  
+  - Haar cascade face tracking with a Kalman filter prediction
+  
+  - Haar + Hough circle detection inside detected face regions
+  
+  - A pre-trained CNN (OpenCV’s SSD model) for more robust face bounding boxes
+  
+  - An “all-in-one” mode that runs Haar, CNN and Kalman in combination
+
+- Interactive controls:
+
+  - “Start Camera” button to begin the live feed
+  
+  - Toggle buttons (CED, SED, KFR, HTR, CNN, AAM) to switch between detection algorithms
+  
+  - Dynamic display of bounding boxes, edge overlays and predicted face centers
+
+Under the hood it uses OpenCV’s DNN module for the CNN detector, cv2.CascadeClassifier for Haar cascades, NumPy for data handling, and PIL/ImageTk to render frames in the Tkinter window.
+
 ## Features
 
 - **Multiple Detection Techniques**: Includes Haar Cascade, Canny and Sobel Edge Detection, Kalman Filter, Hough Circle Transform, and CNN.
